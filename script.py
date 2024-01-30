@@ -18,6 +18,8 @@ time.sleep(2)
 
 for word in words:
     
-    py.write(word, interval=0.1)
+    py.write(word, interval=0.35)
     py.keyDown("return")
+
+    time.sleep(3)
 
